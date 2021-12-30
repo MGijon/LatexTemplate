@@ -6,5 +6,44 @@ This is based in a repository ([link](https://gitlab.com/akuszyk/template)) crea
 
 ---
 
-To execute use the Makefile and one of the available options. 
+#### Make options
+To execute use the Makefile and one of the available options.
 
+COOMING SOON...
+
+---
+
+#### Basic templates
+
+* Book
+
+'''
+\documentclass{book}
+\usepackage[paperwidth=130mm,paperheight=198mm]{geometry}
+\title{Title of the document}
+\date{}
+\author{Name of the aouther}
+
+\begin{document}
+    \maketitle
+    \tableofcontents
+	\newpage
+    \include{chapters/chapter-one}
+\end{document}
+'''
+
+* Article
+
+'''
+\documentclass{article}
+\usepackage[paperwidth=130mm,paperheight=198mm]{geometry}
+\title{Title of the document}
+\date{}
+\author{Name of the aouther}
+
+\begin{document}
+    \maketitle
+    \tableofcontents
+	\newpage
+\end{document}
+'''
